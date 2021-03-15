@@ -26,13 +26,13 @@ const CourseForm = () => {
         }}>
           <table id="form">
             <tr>
-              <th>Subject</th>
-              <th>Grade</th>
-              <th>Credit</th>
+              <th>ชื่อวิชา</th>
+              <th>เกรดที่ได้รับ</th>
+              <th>หน่วยกิต</th>
             </tr>
             <tr>
               <td>
-              <input id="name" type="text" placeholder="Subject Name" onChange = {(e)=>{
+              <input id="name" type="text" placeholder="ชื่อวิชา" onChange = {(e)=>{
                 setInputData({...inputData,
                 name : e.currentTarget.value})
                 }}/>

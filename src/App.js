@@ -67,7 +67,7 @@ function App() {
         <CourseCard state={state.currentState} />
       </div>
       <CourseForm />
-      <p>Your grade is: {GPA.toFixed(2)}</p>
+      <p>{GPA.toFixed(2)}</p>
     </CardContext.Provider>
   );
 }

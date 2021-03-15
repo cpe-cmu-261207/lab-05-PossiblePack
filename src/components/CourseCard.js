@@ -5,13 +5,12 @@ const CourseCard = (props) => {
   return (props.state.map(obj => {
     return (<>
       <div class="CourseCard">
-      
         <tr id="CC">
           <td>
             <div class="tag">
-              <p>Subject : {obj.name}</p>
-              <p>Grade : {obj.a}</p>
-              <p>Credit : {obj.c}</p>
+              <p>วิชา : {obj.name}</p>
+              <p>เกรด : {obj.a}</p>
+              <p>หน่วยกิต : {obj.c}</p>
             </div>
           </td>
           <td>
